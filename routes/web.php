@@ -17,10 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/statuses', function () {
-    // return 
-});
+// Route::get('/statuses', function () {
+//     // return 
+// });
 
-Route::get('skills', function(){
-	return ['laravel', 'Vue', 'PHP', 'Javascript', 'Tooling'];
-});
+// Route::get('skills', function(){
+// 	return ['laravel', 'Vue', 'PHP', 'Javascript', 'Tooling'];
+// });
